@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id ("maven-publish")
 }
 
 android {
@@ -175,4 +176,16 @@ dependencies {
 
     // JUnit 5 extension for Mockito (if using JUnit 5)
     testImplementation ("org.mockito:mockito-junit-jupiter:5.5.0")
+}
+publishing{
+    publications{
+        register<MavenPublication>("release"){
+            afterEvaluate{
+                from (components["release"])
+                groupId ="com.github.subharanjann" // GitHub username
+                artifactId = "MobillorThemeResourceModule"      // GitHub repository name
+//                                version = "1.0.0"
+            }
+        }
+    }
 }
