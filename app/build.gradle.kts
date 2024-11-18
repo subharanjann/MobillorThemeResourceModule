@@ -66,5 +66,7 @@ dependencies {
     //lottie
     implementation("com.airbnb.android:lottie:6.4.0")
     implementation("com.airbnb.android:lottie-compose:4.0.0")
+    implementation(libs.androidx.monitor)
+    implementation(libs.androidx.junit.ktx)
 
 }
