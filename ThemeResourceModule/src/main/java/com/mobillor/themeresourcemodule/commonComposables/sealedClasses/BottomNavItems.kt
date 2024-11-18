@@ -1,6 +1,7 @@
-package com.mobillor.segmk3.presentation.commonComposables.sealedClasses
+package com.mobillor.themeresourcemodule.commonComposables.sealedClasses
 
-import com.mobillor.segmk3.R
+import com.mobillor.themeresourcemodule.R
+
 
 sealed class BottomNavItems (val route: String, val icon: Int, val label: String){
     object Home : BottomNavItems("home", R.drawable.homeicon2, "Home")
