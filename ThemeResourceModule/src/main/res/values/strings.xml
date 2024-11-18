@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">SEG</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Back">Back</string>
+    <string name="please_check_your_connection">Please check your connection</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="searchViewHint">Search Item</string>
+    <string name="pickup_putaway"><![CDATA[Pickup & Putaway]]></string>
+    <string name="pickup">Pickup</string>
+    <string name="admin_s3f6">Admin s3F6</string>
+    <string name="name">Name </string>
+    <string name="role">Role </string>
+    <string name="admin">Admin</string>
+    <string name="multiple_putaway">Multiple Putaway</string>
+    <string name="picking">Picking</string>
+    <string name="picked">Picked</string>
+    <string name="scan_location">Scan Location!!</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="document_type">Document Type</string>
+    <string name="select_itemid">Select ItemID</string>
+    <string name="module">module</string>
+    <string name="placeholder_loc"><![CDATA[2010 >ASRS Open A >R1L1/12235]]></string>
+    <string name="placeholder_uid">GRNL1DDMMYYP2</string>
+    <string name="doc">Doc :</string>
+    <string name="source">Source :</string>
+    <string name="placeholde_picklistid">GRNL1DDMMYYP2</string>
+    <string name="picklist">PickList :</string>
+    <string name="placeholde_weight">8*20/70 kg</string>
+    <string name="pending">pending</string>
+    <string name="item_id">Item Code :</string>
+    <string name="item_qty">Item Qty :</string>
+    <string name="placeholder_doctype">PIV</string>
+    <string name="doc_no">Doc No :</string>
+    <string name="picklist_id">PickList Code :</string>
+    <string name="doc_type">Doc Type :</string>
+    <string name="all_modules">All Modules</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="toast_no_location_match">No Location Match</string>
+    <string name="toast_location_set">Location Set</string>
+    <string name="toast_no_match">No Match</string>
+    <string name="toast_scan_location_first">Scan Location First!</string>
+    <string name="toast_data_not_found">Data Not found</string>
+    <string name="toast_camera_permission_is_mandate">Camera Permission IS Mandate</string>
+    <string name="toast_putaway_complete">Putaway complete</string>
+    <string name="toast_incorrect_location">Incorrect Location</string>
+    <string name="toast_set_filters">Set Filters</string>
+    <string name="toast_nothing_picked">nothing Picked</string>
+    <string name="sign_in">Sign In</string>
+    <string name="toast_password_change_failed">Password change failed, Check credentials</string>
+    <string name="toast_password_changed_successfully">Password changed successfully</string>
+    <string name="toast_select_a_picklist">Select a pickList</string>
+    <string name="hint_search_uid">Search UID</string>
+    <string name="toast_all_picked">All picked !!</string>
+    <string name="create_picklist">Create Picklist</string>
+    <string name="version_name"></string>
+    <string name="toast_no_data_for_the_filters">No data for the Filters</string>
+    <string name="toast_wrong_location">wrong Location</string>
+    <string name="loading">Loading</string>
+    <string name="search_list_id">Search List ID</string>
+    <string name="emptyPlaceholder" />
+    <string name="empty_email">Empty Email!</string>
+    <string name="empty_password">Empty Password\n</string>
+    <string name="empty_credential">Empty Credentials</string>
+    <string name="too_short_pass">Minimum 8 characters</string>
+    <string name="email_is_in_valid">Email is in valid</string>
+    <string name="go_to_putaway">Go to Putaway</string>
+    <string name="toast_no_pallet_match">No Pallet Match</string>
+    <string name="toast_no_bin_match">No Bin Match\n</string>
+    <string name="release">Release</string>
+    <string name="scan_rfid">SCAN RFID</string>
+    <string name="rfid">RFID</string>
+    <string name="kitting">Kitting</string>
+    <string name="enter_reason_for_rejection">Enter Reason for rejection</string>
+    <string name="title_activity_login_jet_compose">LoginActivityJetCompose</string>
+    <string name="title_activity_scan_bin_jet_compose">ScanBinJetComposeActivity</string>
+    <string name="title_activity_scan_location_jet_compose">ScanLocationJetComposeActivity</string>
+    <string name="title_activity_scan_pallet_jet_compose">ScanPalletJetComposeActivity</string>
+    <string name="title_activity_scan_suidjet_compose">ScanSUIDJetComposeActivity</string>
+    <string name="quarantine">Quarantine</string>
+    <string name="title_activity_rejection_jet_compose">RejectionJetComposeActivity</string>
+    <string name="title_activity_bin_transfer">BinTransferActivity</string>
+    <string name="title_activity_scan_bin_detailed">ScanBinDetailedActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_basic_elements">BasicElements</string>
+    <string name="title_activity_basic_shapes">BasicShapes</string>
+    <string name="title_activity_bin_release_composable">BinReleaseComposable</string>
+    <string name="title_activity_first_bin_mapping_jetpack_compose">
+        FirstBinMappingJetpackComposeActivity
+    </string>
+    <string name="title_activity_fragments_on_bin_mapping_jetpack_compose">
+        FragmentsOnBinMappingJetpackComposeActivity
+    </string>
+    <string name="title_activity_bin_mapping_jetpack_compose">BinMappingJetpackComposeActivity
+    </string>
+    <string name="title_activity_mapped_material_bin_mapping_jetpack_compose">
+        MappedMaterialBinMappingJetpackComposeActivity
+    </string>
+    <string name="title_activity_first_palletization_jetpack_compose">
+        FirstPalletizationJetpackComposeActivity
+    </string>
+    <string name="title_activity_fragments_on_palletization_jetpack_compose">
+        FragmentsOnPalletizationJetpackComposeActivity
+    </string>
+    <string name="title_activity_pallet_mapping_jetpack_compose">
+        PalletMappingJetpackComposeActivity
+    </string>
+    <string name="title_activity_mapped_material_jetpack_compose">
+        MappedMaterialJetpackComposeActivity
+    </string>
+    <string name="title_activity_first_empty_pallet_jetpack_compose">
+        FirstEmptyPalletJetpackComposeActivity
+    </string>
+    <string name="title_activity_second_empty_pallet_jetpack_compose">
+        SecondEmptyPalletJetpackComposeActivity
+    </string>
+    <string name="title_activity_home_jetpack_compose">HomeActivityJetpackCompose</string>
+    <string name="title_activity_first_cycle_count">FirstCycleCountActivity</string>
+    <string name="title_activity_second_cycle_count">SecondCycleCountActivity</string>
+</resources>

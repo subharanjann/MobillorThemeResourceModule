@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+
+    <!-- Solid color for the view -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Dotted stroke for the left side -->
+    <stroke
+        android:width="1dp"
+        android:color="@color/evenlighterredstuff"
+        android:dashWidth="4dp"
+        android:dashGap="4dp"/>
+
+    <!-- Padding to ensure the dots are drawn -->
+    <padding
+        android:left="1dp" />
+</shape>

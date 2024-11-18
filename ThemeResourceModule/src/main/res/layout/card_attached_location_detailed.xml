@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="@dimen/_6sdp"
+    android:layout_marginBottom="@dimen/_2sdp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bodypicklistbin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ItemCode"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/item_id"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/itemcodevalue"
+            style="@style/normalTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="7BMP0919199"
+            app:layout_constraintStart_toEndOf="@+id/ItemCode"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/suiddata"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="Suid :"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ItemCode" />
+
+        <TextView
+            android:id="@+id/SUIDtext"
+            style="@style/normalTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="7BMAAGAGAGA9909000000"
+            app:layout_constraintStart_toEndOf="@+id/suiddata"
+            app:layout_constraintTop_toBottomOf="@+id/itemcodevalue" />
+
+        <TextView
+            android:id="@+id/asndata"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="SKU :"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suiddata" />
+
+        <TextView
+            android:id="@+id/ASNTEXT"
+            style="@style/normalTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="7BN89098"
+            app:layout_constraintStart_toEndOf="@+id/suiddata"
+            app:layout_constraintTop_toBottomOf="@+id/SUIDtext" />
+
+        <TextView
+            android:id="@+id/qtydata"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="Qty :"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/asndata" />
+
+        <TextView
+            android:id="@+id/qtyvalue"
+            style="@style/normalTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="7BN89098"
+            app:layout_constraintStart_toEndOf="@+id/asndata"
+            app:layout_constraintTop_toBottomOf="@+id/ASNTEXT" />
+
+
+        <TextView
+            android:id="@+id/BinCode"
+            android:layout_width="80dp"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:text="Bin Code"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/qtydata"
+            app:layout_constraintTop_toBottomOf="@id/qtydata"/>
+
+
+        <TextView
+            android:id="@+id/BinCodevalue"
+            style="@style/normalTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="7BMP0919199"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/qtyvalue"
+            app:layout_constraintTop_toBottomOf="@id/qtyvalue"/>
+
+        <TextView
+            android:id="@+id/locationCode"
+            android:layout_width="80dp"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/BinCode"
+            app:layout_constraintTop_toBottomOf="@id/BinCode"/>
+
+
+        <TextView
+            android:id="@+id/LocationData"
+            style="@style/normalTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:visibility="gone"
+            android:text="SUWHMM-agaga-993"
+            app:layout_constraintStart_toStartOf="@id/BinCodevalue"
+            app:layout_constraintTop_toBottomOf="@id/BinCodevalue"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/confirmpick"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="#4CAF50"
+            android:backgroundTint="#4CAF50"
+            android:visibility="gone"
+            app:cardCornerRadius="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/dottedicon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LocationData" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtDetailedBinDescription"
+            style="@style/normalTextStyleRed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Methyl Ethyl Ketone (MEK)"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/qtydata"
+            app:layout_constraintTop_toBottomOf="@id/imgView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>

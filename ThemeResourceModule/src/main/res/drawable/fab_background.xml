@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Background circle -->
+        <shape android:shape="oval">
+            <solid android:color="@color/redStuff"/>
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <!-- Text overlay -->
+        <bitmap
+            android:src="@drawable/quarantine_image_2"
+            android:gravity="center"/>
+    </item>
+</layer-list>

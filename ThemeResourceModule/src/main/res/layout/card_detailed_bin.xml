@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="390dp"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="1dp">
+
+
+            <TextView
+                android:id="@+id/text1"
+                style="@style/smallMediumnormalTextStyle"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="GRN  "
+                app:layout_constraintStart_toStartOf="@+id/text"
+                app:layout_constraintTop_toBottomOf="@+id/text13" />
+
+            <TextView
+                android:id="@+id/text13"
+                style="@style/normalTextStyle"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+
+                android:text="SUID  "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/text"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Invoice :"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/normalTextStyle"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Item Code/QTY  "
+                app:layout_constraintStart_toStartOf="@+id/text"
+                app:layout_constraintTop_toBottomOf="@+id/text" />
+
+            <TextView
+                android:id="@+id/text3"
+                style="@style/normalTextStyle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Qty : "
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/text"
+                app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+            <TextView
+                android:id="@+id/text31"
+                style="@style/normalTextStyle"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Batch  "
+                app:layout_constraintStart_toStartOf="@+id/text"
+                app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+            <TextView
+                android:id="@+id/text32"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VC / VN : "
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/text"
+                app:layout_constraintTop_toBottomOf="@+id/txtDetailedQualityInspectionInwardMaterialCode" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=": "
+                app:layout_constraintEnd_toStartOf="@+id/txtDetailedQualityInspectionInwardGRN"
+                app:layout_constraintTop_toTopOf="@+id/txtDetailedQualityInspectionInwardGRN" />
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardGRN"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="7656783674123"
+                app:layout_constraintBottom_toBottomOf="@+id/text1"
+                app:layout_constraintStart_toEndOf="@+id/text1"
+                app:layout_constraintTop_toTopOf="@+id/text1" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=": "
+                app:layout_constraintEnd_toStartOf="@+id/txtDetailedQualityInspectionInwardUID"
+                app:layout_constraintTop_toTopOf="@+id/txtDetailedQualityInspectionInwardUID" />
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardUID"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+
+                android:text="7656783674123"
+                app:layout_constraintBottom_toTopOf="@+id/text1"
+                app:layout_constraintStart_toEndOf="@+id/text13"
+                app:layout_constraintTop_toTopOf="@+id/text13" />
+
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardInvoice"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5113783674123"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/text"
+                app:layout_constraintStart_toEndOf="@+id/text"
+                app:layout_constraintTop_toTopOf="@+id/text" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=": "
+                app:layout_constraintEnd_toStartOf="@+id/txtDetailedQualityInspectionInwardMaterialCode"
+                app:layout_constraintTop_toTopOf="@+id/txtDetailedQualityInspectionInwardMaterialCode" />
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardMaterialCode"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+
+                android:text="2100-219"
+                app:layout_constraintBottom_toBottomOf="@+id/text2"
+                app:layout_constraintStart_toEndOf="@+id/text2"
+                app:layout_constraintTop_toTopOf="@+id/text2" />
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardVC_VN"
+                style="@style/normalTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12342134"
+
+                android:visibility="gone"
+
+                app:layout_constraintStart_toEndOf="@+id/text32"
+                app:layout_constraintTop_toTopOf="@+id/text32" />
+
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardQty"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="12342134"
+                app:layout_constraintBottom_toBottomOf="@+id/txtDetailedQualityInspectionInwardMaterialCode"
+                app:layout_constraintStart_toEndOf="@+id/txtDetailedQualityInspectionInwardMaterialCode"
+                app:layout_constraintTop_toTopOf="@+id/text2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=": "
+                app:layout_constraintEnd_toStartOf="@+id/txtDetailedQualityInspectionInwardBatch"
+                app:layout_constraintTop_toTopOf="@+id/txtDetailedQualityInspectionInwardBatch" />
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardBatch"
+                style="@style/normalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+
+                android:text="12342134"
+                app:layout_constraintBottom_toBottomOf="@+id/text31"
+                app:layout_constraintStart_toEndOf="@+id/text31"
+                app:layout_constraintTop_toTopOf="@+id/text31" />
+
+
+            <ImageView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+
+                android:layerType="software"
+                android:src="@drawable/design_dotted_red_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text31" />
+
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardRestrictedDescription"
+                style="@style/smalllightcolorednormalTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="CJS Speciality Chemicals"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/text7"
+                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="STATUS : "
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/text3"
+                app:layout_constraintTop_toBottomOf="@+id/text31" />
+
+            <TextView
+                android:id="@+id/txtDetailedQualityInspectionInwardRestricted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESTRICTED"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/text7"
+                app:layout_constraintStart_toEndOf="@+id/text2" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

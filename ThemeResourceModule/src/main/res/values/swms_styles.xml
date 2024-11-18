@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //text
+
+
+    <style name="normalTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkgrey</item>
+    </style>
+    <style name="smallnormalTextStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/darkmediumgrey</item>
+    </style>
+    <style name="smallMediumnormalTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/darkmediumgrey</item>
+    </style>
+    <style name="smalllightcolorednormalTextStyle">
+        <item name="android:textSize">12sp</item>
+
+        <item name="android:textColor">@color/lightredStuff</item>
+
+    </style>
+    <style name="smallnormalGreyTextStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="normalTextStyleBold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="normalTextStyleRed">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/redStuff</item>
+    </style>
+
+    <style name="titleTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="whiteTitleTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="subTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+    <style name="subTextDarkStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/darkmediumgrey</item>
+    </style>
+
+    <style name="highlightedTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/lightredStuff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="semiHighlightedTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/redStuff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="wildcardTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/comfortaa_light</item>
+    </style>
+
+    //buttons
+
+    <style name="standardButtonStyle">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/design_alter_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item></style>
+    <style name="lightButtonStyle">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/design_light_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="subStandardButtonStyle">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/design_alterego_button</item>
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:alpha">.5</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="wildcardButtonStyle">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/design_button_wildcard</item>
+        <item name="android:textColor">@color/wildCardColor</item>
+        <item name="alpha">.5</item>
+        <item name="android:textSize">16sp</item>
+
+
+    </style>
+
+    //containers / bodies
+
+    <style name="borderedStandardColorBody">
+        <item name="android:background">@drawable/design_spinner</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="dottedBorderedStandardColorBody">
+        <item name="android:background">@drawable/design_dottedbox</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="curvedBorderedStandardColorBody">
+        <item name="android:background">@drawable/design_dotted_curved_body</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="purpleBox">
+        <item name="android:background">@drawable/design_purple_box</item>
+    </style>
+    <style name="redBox">
+        <item name="android:background">@drawable/design_red_box</item>
+    </style>
+
+    <style name="onesided_dotted_design_body">
+        <item name="android:background">@drawable/design_dotted_sides</item>
+    </style>
+    <style name="highLightedBody">
+        <item name="android:background">@drawable/top_nav_design</item>
+        <item name="elevation">2dp</item>
+    </style>
+
+
+    <style name="dottedBorderedSecondaryColoredBody">
+        <item name="android:background">@drawable/design_curved_bottom_red</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="dottedBorderedPurpleColoredBody">
+        <item name="android:background">@drawable/design_curved_bottom_purple</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    //lines
+    <style name="dottedBorderedLine">
+        <item name="android:background">@drawable/design_dotted_line</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="dottedBorderedRedLine">
+        <item name="android:background">@drawable/design_dotted_red_line</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    //vector tint styling
+
+    <style name="StandardVectorTheme">
+        <item name="android:tint">@color/redStuff</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,62 @@
+<!-- Your custom dialog layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Text View -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textFontWeight="1000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        android:text="These are the missing bins"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/listViewStrings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:text="Proceed to GRN"
+        android:id="@+id/btn_submit"
+        android:padding="@dimen/_5sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_btn"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:text="Cancel"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/background_btn"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>
