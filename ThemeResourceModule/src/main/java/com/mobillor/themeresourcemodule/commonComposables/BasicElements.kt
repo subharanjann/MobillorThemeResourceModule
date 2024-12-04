@@ -65,7 +65,7 @@ import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
 import com.mobillor.themeresourcemodule.R
-import com.mobillor.themeresourcemodule.commonComposables.ui.theme.SEGMK3Theme
+import com.mobillor.themeresourcemodule.commonComposables.ui.theme.SEGMK3ThemeV
 
 import com.mobillor.themeresourcemodule.commonComposables.ui.theme.darkIndigo
 import com.mobillor.themeresourcemodule.commonComposables.ui.theme.darkPurpleStuff
@@ -79,7 +79,7 @@ class BasicElements : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            SEGMK3Theme {
+            SEGMK3ThemeV {
 
                     Greeting2()
                 }
@@ -117,7 +117,7 @@ fun Greeting2() {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview2() {
-    SEGMK3Theme {
+    SEGMK3ThemeV {
         Greeting2()
     }
 }

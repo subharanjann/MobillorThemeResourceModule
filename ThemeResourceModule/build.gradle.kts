@@ -157,16 +157,7 @@ dependencies {
     implementation ("androidx.compose.material:material:1.3.0")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.0")
 
-    // JUnit 5 core library
-    testImplementation ("org.junit.jupiter:junit-jupiter-api:5.10.0")
-    testRuntimeOnly ("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 
-    // JUnit 5 support for Kotlin
-    testImplementation ("org.jetbrains.kotlin:kotlin-test:1.9.0")
-    testImplementation ("org.jetbrains.kotlin:kotlin-test-junit5:1.9.0")
-
-    // Mockito core library
-    testImplementation ("org.mockito:mockito-core:5.5.0")
 
     // Mockito with Kotlin support
     testImplementation ("org.mockito.kotlin:mockito-kotlin:5.1.0")

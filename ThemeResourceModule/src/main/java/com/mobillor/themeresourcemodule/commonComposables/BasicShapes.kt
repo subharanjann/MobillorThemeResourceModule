@@ -36,7 +36,7 @@ import androidx.compose.ui.tooling.preview.Preview
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.mobillor.themeresourcemodule.commonComposables.ui.theme.SEGMK3Theme
+import com.mobillor.themeresourcemodule.commonComposables.ui.theme.SEGMK3ThemeV
 import com.mobillor.themeresourcemodule.commonComposables.ui.theme.primaryColorLightAccent
 import com.mobillor.themeresourcemodule.commonComposables.ui.theme.primaryColorAccent
 
@@ -45,7 +45,7 @@ class BasicShapes : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            SEGMK3Theme {
+            SEGMK3ThemeV {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting3(
                         name = "Android",
@@ -68,7 +68,7 @@ fun Greeting3(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview3() {
-    SEGMK3Theme {
+    SEGMK3ThemeV {
         Greeting3("Android")
     }
 }
